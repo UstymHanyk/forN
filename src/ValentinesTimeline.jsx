@@ -362,7 +362,7 @@ const TimelineMemoryGame = ({ photos, onComplete }) => {
 <AnimatePresence mode="wait" custom={direction}>
   {isFullscreen && (
     <motion.div
-      className="fixed inset-0 z-50 backdrop-blur-lg bg-black/70 flex flex-col items-center justify-center"
+      className="fixed inset-0 z-9999 backdrop-blur-lg bg-black/70 flex flex-col items-center justify-center"
       onClick={closeFullscreen}
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
@@ -833,7 +833,7 @@ const Celebration = () => {
     }));
 
     return (
-        <div className="fixed inset-0 z-50 pointer-events-none">
+        <div className="fixed inset-0 z-9999 pointer-events-none">
             {/* White background with congratulations text */}
             <div className="absolute inset-0 bg-white bg-opacity-90 flex items-center justify-center">
                 <div className="text-center">
