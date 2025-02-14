@@ -1,0 +1,16 @@
+@import "tailwindcss";
+.leaflet-popup-content-wrapper {
+  background: #fff !important;
+  border-radius: 12px !important;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15) !important;
+  padding: 18px 6px !important;
+}
+.leaflet-popup-content p{
+  margin: 1rem 0 0 0 !important;
+}
+.leaflet-popup-content {
+  margin: 0 !important;
+  color: #000 !important;
+  font-size: 14px !important;
+  text-align: center !important;
+}
